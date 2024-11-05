@@ -1,0 +1,22 @@
+.btn {
+  background-color: #ffffff;
+  color: #db1c48;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid #db1c48;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}
+
+.active-btn {
+  background-color: #db1c48;
+  color: #ffffff;
+  border-width: 0px;
+}
